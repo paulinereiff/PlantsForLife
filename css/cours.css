@@ -1,0 +1,73 @@
+@font-face {
+    /* Définition d'une nouvelle police nommée LearningCurveProRegular */
+    font-family: 'GeosansLight';
+    src: url('../data/GeosansLight/GeosansLight.ttf');
+}
+
+* {
+    font-family: 'LearningCurveProRegular', Arial, serif;
+    background-color: lightgoldenrodyellow;
+    /* Le fond de la page sera noir */
+}
+
+#mainContainer {
+    display: flex
+}
+
+p {
+    color: orangered;
+    padding: 12px;
+}
+
+a,
+a:visited {
+    color: #AAA;
+    /* Appliquer une couleur grise */
+}
+
+{
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gainsboro;
+}
+
+a:active {
+    color: gainsboro;
+    font-weight: bold;
+}
+
+.left {
+    width: 25%;
+    border-style: solid;
+    padding: 10px;
+}
+
+.mid {
+    width: 50%;
+    border-style: solid;
+    padding: 10px;
+}
+
+.right {
+    width: 25%;
+    border-style: solid;
+    padding: 10px;
+}
+
+li {
+    color: blue;
+    list-style-type: none
+}
+
+#main {
+    border-style: solid;
+    height: 400px;
+}
+
+#navigation {
+    border-style: solid;
+}
